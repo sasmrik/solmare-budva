@@ -265,7 +265,7 @@
       <div class="h-[65vh] min-h-[360px] w-full overflow-hidden rounded-2xl">
         <iframe
           title="Google Maps — Solmare, Budva"
-          src="https://maps.google.com/maps?q=42.2785,18.8415&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          src="https://maps.google.com/maps?q=42.2825,18.8581&t=&z=15&ie=UTF8&iwloc=&output=embed"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           allowfullscreen
@@ -539,7 +539,7 @@
     }
     async function fetchWeather() {
       try {
-        const response = await fetch("https://api.open-meteo.com/v1/forecast?latitude=42.2785&longitude=18.8415&current=temperature_2m,weather_code,is_day&timezone=Europe/Podgorica");
+        const response = await fetch("https://api.open-meteo.com/v1/forecast?latitude=42.2825&longitude=18.8581&current=temperature_2m,weather_code,is_day&timezone=Europe/Podgorica")
         if (!response.ok) throw new Error("Weather request failed");
         const current = (await response.json()).current;
         const temperature = Math.round(current.temperature_2m);
