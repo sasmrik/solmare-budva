@@ -108,7 +108,7 @@
 
   <main id="home">
     <section id="hero" class="relative flex min-h-[760px] items-end overflow-hidden sm:min-h-[850px]">
-      <img src="photo1.jpg" alt="Exteriorul complexului Solmare din Budva" class="hero-photo absolute inset-0 h-full w-full object-cover object-center">
+      <img src="photo1.jpg" alt="Exteriorul complexului Solmare din Uteha" class="hero-photo absolute inset-0 h-full w-full object-cover object-center">
       <div class="absolute inset-0 bg-gradient-to-t from-[#080a0d] via-[#080a0d]/40 to-black/25"></div>
       <div class="absolute inset-0 bg-gradient-to-r from-black/45 via-transparent to-transparent"></div>
       <div class="relative mx-auto w-full max-w-7xl px-5 pb-16 pt-36 sm:px-8 sm:pb-24">
@@ -124,7 +124,7 @@
         <div class="glass mt-10 inline-flex items-center gap-3 rounded-2xl px-4 py-3">
           <span id="weatherIcon" class="text-2xl" aria-hidden="true">⛅</span>
           <div>
-            <div class="flex items-baseline gap-2"><span class="weather-temp text-lg font-semibold">+--°</span><span class="text-xs text-white/50">Budva</span></div>
+            <div class="flex items-baseline gap-2"><span class="weather-temp text-lg font-semibold">+--°</span><span class="text-xs text-white/50">Uteha</span></div>
             <p id="weatherDescription" class="text-xs text-white/65"></p>
           </div>
         </div>
@@ -182,7 +182,7 @@
             <p class="mb-3 text-xs font-semibold tracking-[.24em] text-amber-200/80" data-i18n="mapEyebrow"></p>
             <h2 class="serif max-w-2xl text-4xl sm:text-5xl" data-i18n="mapTitle"></h2>
             <p class="mt-5 max-w-xl text-sm leading-7 text-white/60" data-i18n="mapText"></p>
-            <p class="mt-6 font-mono text-sm tracking-wide text-cyan-100/80">42.2785° N &nbsp; 18.8415° E</p>
+            <p class="mt-6 font-mono text-sm tracking-wide text-cyan-100/80">42.0155° N &nbsp; 19.1489° E</p>
           </div>
           <button id="openMap" class="inline-flex min-h-16 items-center justify-center gap-3 rounded-2xl border border-cyan-200/30 bg-cyan-300/10 px-7 py-5 font-semibold text-cyan-50 shadow-[0_0_45px_rgba(34,211,238,.15)] transition hover:bg-cyan-300/20">
             <span data-i18n="mapCta"></span><span aria-hidden="true">↗</span>
@@ -218,7 +218,7 @@
   </main>
 
   <footer class="border-t border-white/10 px-5 py-8 text-center text-xs text-white/40">
-    <p>© <span id="year"></span> SOLMARE · Budva, Montenegro</p>
+    <p>© <span id="year"></span> SOLMARE · Uteha, Montenegro</p>
   </footer>
 
   <div id="stickyBooking" class="sticky-booking fixed bottom-0 left-0 z-40 flex w-full items-center justify-between border-t border-white/10 bg-[#0a1929]/90 p-4 backdrop-blur-xl md:hidden">
@@ -264,8 +264,8 @@
       <h2 id="mapModalTitle" class="serif px-2 pb-4 pt-2 text-2xl" data-i18n="mapModalTitle"></h2>
       <div class="h-[65vh] min-h-[360px] w-full overflow-hidden rounded-2xl">
         <iframe
-          title="Google Maps — Solmare, Budva"
-          src="https://maps.google.com/maps?q=42.2825,18.8581&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          title="Google Maps — Solmare, Uteha"
+          src="https://maps.google.com/maps?q=42.0154841,19.148908&t=&z=16&ie=UTF8&iwloc=&output=embed"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           allowfullscreen
@@ -279,33 +279,33 @@
     const translations = {
       ro: {
         navSuites:"Apartamente",navAmenities:"Facilități",navLocation:"Locație",navReviews:"Recenzii",navFaq:"Întrebări",book:"Rezervă",
-        heroLocation:"BUDVA · MUNTENEGRU",heroTitle:"Sejur Premium",heroText:"Un refugiu elegant între munții Muntenegrului și albastrul nesfârșit al Mării Adriatice.",heroCta:"Rezervă sejurul",explore:"Explorează apartamentele",heroSide:"ADRIATIC · 42°17′N 18°50′E",
+        heroLocation:"UTEHA · MUNTENEGRU",heroTitle:"Sejur Premium",heroText:"Un refugiu elegant între munții Muntenegrului și albastrul nesfârșit al Mării Adriatice.",heroCta:"Rezervă sejurul",explore:"Explorează apartamentele",heroSide:"ADRIATIC · 42°17′N 18°50′E",
         amenitiesEyebrow:"CONFORT FĂRĂ COMPROMIS",amenitiesTitle:"Tot ce ai nevoie. <span class='text-white/45'>Nimic în plus.</span>",wifiTitle:"Wi-Fi de mare viteză",wifiText:"Conectivitate rapidă, pentru zile de lucru sau seri de relaxare.",parkingTitle:"Parcare privată",parkingText:"Un loc sigur și comod pentru mașina ta, pe durata șederii.",acTitle:"Aer condiționat",acText:"Confort răcoros în apartament, chiar și în zilele însorite.",
         galleryEyebrow:"SPAȚIILE SOLMARE",galleryTitle:"Frumusețe în fiecare detaliu",galleryText:"Interioare atent alese, lumină naturală și tihna unui sejur aproape de mare.",livingLabel:"Living",livingTitle:"Spațiu pentru a respira",kitchenLabel:"Bucătărie",balconyLabel:"Balcon cu vedere la mare",bedroomLabel:"Dormitor",diningLabel:"Zonă de luat masa",price:"De la 85 € / noapte",livingAlt:"Living elegant",kitchenAlt:"Bucătărie modernă",balconyAlt:"Balcon cu vedere la mare",bedroomAlt:"Dormitor elegant",diningAlt:"Zonă de luat masa",
-        mapEyebrow:"DESCOPERĂ BUDVA",mapTitle:"Marea aproape. Lumea la îndemână.",mapText:"Bucură-te de atmosfera Adriaticii și de farmecul orașului Budva, într-un loc creat pentru momente de neuitat.",mapCta:"Vezi harta",mapModalTitle:"Solmare · Budva",
-        reviewsEyebrow:"MOMENTE DE NEUITAT",reviewsTitle:"Ce spun oaspeții",review1:"„Un sejur minunat, într-un apartament luminos și foarte confortabil. Ne-am simțit ca acasă.”",review2:"„Balconul și atmosfera liniștită au făcut vacanța noastră în Budva specială.”",review3:"„Un loc elegant și primitor, cu tot ce ne trebuia pentru câteva zile perfecte.”",guest1:"Elena M. · exemplu",guest2:"Andrei P. · exemplu",guest3:"Mara D. · exemplu",reviewDemo:"Recenzie demonstrativă — înlocuiți cu o mărturie verificată.",
+        mapEyebrow:"DESCOPERĂ UTEHA",mapTitle:"Marea aproape. Lumea la îndemână.",mapText:"Bucură-te de atmosfera Adriaticii și de farmecul stațiunii Uteha, într-un loc creat pentru momente de neuitat.",mapCta:"Vezi harta",mapModalTitle:"Solmare · Uteha",
+        reviewsEyebrow:"MOMENTE DE NEUITAT",reviewsTitle:"Ce spun oaspeții",review1:"„Un sejur minunat, într-un apartament luminos și foarte confortabil. Ne-am simțit ca acasă.”",review2:"„Balconul și atmosfera liniștită au făcut vacanța noastră în Uteha specială.”",review3:"„Un loc elegant și primitor, cu tot ce ne trebuia pentru câteva zile perfecte.”",guest1:"Elena M. · exemplu",guest2:"Andrei P. · exemplu",guest3:"Mara D. · exemplu",reviewDemo:"Recenzie demonstrativă — înlocuiți cu o mărturie verificată.",
         faqEyebrow:"RĂSPUNSURI RAPIDE",faqTitle:"Întrebări frecvente",faqQ1:"Cum pot face o rezervare?",faqA1:"Alege datele dorite și trimite cererea din formularul de rezervare. Te vom contacta pentru detalii.",faqQ2:"La ce oră sunt check-in-ul și check-out-ul?",faqA2:"Orele de sosire și plecare se confirmă direct cu echipa noastră după trimiterea cererii.",faqQ3:"Este disponibilă parcarea?",faqA3:"Da, complexul oferă parcare privată pentru oaspeți.",
         finalEyebrow:"URMĂTORUL TĂU SEJUR ÎNCEPE AICI",finalTitle:"Lasă Adriatica să te surprindă.",stickyPrice:"De la 85 € / noapte",bookingEyebrow:"REZERVARE DIRECTĂ",bookingTitle:"Alege-ți sejurul",bookingIntro:"Selectează datele preferate și trimite-ne cererea ta.",checkinLabel:"Check-in",checkoutLabel:"Check-out",dateError:"Data plecării trebuie să fie după data sosirii.",checkAvailability:"Verifică disponibilitatea",checking:"Se verifică disponibilitatea...",sendRequest:"Trimite cererea",sent:"Cerere trimisă cu succes! Vă vom contacta în curând.",selectDates:"Alege datele de sosire și plecare.",baseEstimate:"Preț de la 85 € / noapte",estimate:"Datele sunt libere! {nights} nopți x 85 € = {total} €",
         weatherUnavailable:"Vreme indisponibilă",weather0:"Cer senin",weather1:"Aproape senin",weather2:"Parțial noros",weather3:"Noros",weather45:"Ceață",weather48:"Ceață cu depuneri de chiciură",weather51:"Burniță ușoară",weather53:"Burniță moderată",weather55:"Burniță densă",weather56:"Burniță înghețată ușoară",weather57:"Burniță înghețată densă",weather61:"Ploaie ușoară",weather63:"Ploaie moderată",weather65:"Ploaie puternică",weather66:"Ploaie înghețată ușoară",weather67:"Ploaie înghețată puternică",weather71:"Ninsoare ușoară",weather73:"Ninsoare moderată",weather75:"Ninsoare puternică",weather77:"Fulgi de zăpadă",weather80:"Averse ușoare",weather81:"Averse moderate",weather82:"Averse puternice",weather85:"Averse de ninsoare ușoare",weather86:"Averse de ninsoare puternice",weather95:"Furtună",weather96:"Furtună cu grindină ușoară",weather99:"Furtună cu grindină puternică",weekdays:["Du","Lu","Ma","Mi","Jo","Vi","Sâ"]
       },
       en: {
         navSuites:"Apartments",navAmenities:"Amenities",navLocation:"Location",navReviews:"Reviews",navFaq:"FAQ",book:"Book",
-        heroLocation:"BUDVA · MONTENEGRO",heroTitle:"A Premium Stay",heroText:"An elegant retreat between Montenegro’s mountains and the endless blue of the Adriatic Sea.",heroCta:"Book your stay",explore:"Explore apartments",heroSide:"ADRIATIC · 42°17′N 18°50′E",
+        heroLocation:"UTEHA · MONTENEGRO",heroTitle:"A Premium Stay",heroText:"An elegant retreat between Montenegro’s mountains and the endless blue of the Adriatic Sea.",heroCta:"Book your stay",explore:"Explore apartments",heroSide:"ADRIATIC · 42°17′N 18°50′E",
         amenitiesEyebrow:"COMFORT WITHOUT COMPROMISE",amenitiesTitle:"Everything you need. <span class='text-white/45'>Nothing more.</span>",wifiTitle:"High-speed Wi-Fi",wifiText:"Fast connectivity for focused workdays and relaxed evenings.",parkingTitle:"Private parking",parkingText:"A secure, convenient space for your car throughout your stay.",acTitle:"Air conditioning",acText:"A cool, comfortable apartment, even on sunny days.",
         galleryEyebrow:"THE SOLMARE SPACES",galleryTitle:"Beauty in every detail",galleryText:"Thoughtfully chosen interiors, natural light and the calm of a stay by the sea.",livingLabel:"Living room",livingTitle:"Room to breathe",kitchenLabel:"Kitchen",balconyLabel:"Sea-view balcony",bedroomLabel:"Bedroom",diningLabel:"Dining area",price:"From €85 / night",livingAlt:"Elegant living room",kitchenAlt:"Modern kitchen",balconyAlt:"Balcony overlooking the sea",bedroomAlt:"Elegant bedroom",diningAlt:"Dining area",
-        mapEyebrow:"DISCOVER BUDVA",mapTitle:"The sea nearby. Everything within reach.",mapText:"Enjoy the Adriatic atmosphere and the charm of Budva in a place designed for unforgettable moments.",mapCta:"View map",mapModalTitle:"Solmare · Budva",
-        reviewsEyebrow:"UNFORGETTABLE MOMENTS",reviewsTitle:"What our guests say",review1:"“A wonderful stay in a bright, very comfortable apartment. We felt right at home.”",review2:"“The balcony and peaceful atmosphere made our holiday in Budva special.”",review3:"“An elegant, welcoming place with everything we needed for a perfect few days.”",guest1:"Elena M. · example",guest2:"Andrei P. · example",guest3:"Mara D. · example",reviewDemo:"Demonstration review — replace with a verified testimonial.",
+        mapEyebrow:"DISCOVER UTEHA",mapTitle:"The sea nearby. Everything within reach.",mapText:"Enjoy the Adriatic atmosphere and the charm of Uteha in a place designed for unforgettable moments.",mapCta:"View map",mapModalTitle:"Solmare · Uteha",
+        reviewsEyebrow:"UNFORGETTABLE MOMENTS",reviewsTitle:"What our guests say",review1:"“A wonderful stay in a bright, very comfortable apartment. We felt right at home.”",review2:"“The balcony and peaceful atmosphere made our holiday in Uteha special.”",review3:"“An elegant, welcoming place with everything we needed for a perfect few days.”",guest1:"Elena M. · example",guest2:"Andrei P. · example",guest3:"Mara D. · example",reviewDemo:"Demonstration review — replace with a verified testimonial.",
         faqEyebrow:"QUICK ANSWERS",faqTitle:"Frequently asked questions",faqQ1:"How can I make a booking?",faqA1:"Choose your dates and send a request using the booking form. We’ll contact you with the details.",faqQ2:"What are the check-in and check-out times?",faqA2:"Arrival and departure times are confirmed with our team after you submit your request.",faqQ3:"Is parking available?",faqA3:"Yes, private parking is available for guests.",
         finalEyebrow:"YOUR NEXT STAY STARTS HERE",finalTitle:"Let the Adriatic surprise you.",stickyPrice:"From €85 / night",bookingEyebrow:"DIRECT BOOKING",bookingTitle:"Choose your stay",bookingIntro:"Select your preferred dates and send us your request.",checkinLabel:"Check-in",checkoutLabel:"Check-out",dateError:"Check-out must be after check-in.",checkAvailability:"Check availability",checking:"Checking availability...",sendRequest:"Send request",sent:"Request sent successfully! We’ll be in touch soon.",selectDates:"Choose your check-in and check-out dates.",baseEstimate:"From €85 / night",estimate:"Dates available! {nights} nights x €85 = €{total}",
         weatherUnavailable:"Weather unavailable",weather0:"Clear sky",weather1:"Mainly clear",weather2:"Partly cloudy",weather3:"Overcast",weather45:"Fog",weather48:"Depositing rime fog",weather51:"Light drizzle",weather53:"Moderate drizzle",weather55:"Dense drizzle",weather56:"Light freezing drizzle",weather57:"Dense freezing drizzle",weather61:"Slight rain",weather63:"Moderate rain",weather65:"Heavy rain",weather66:"Light freezing rain",weather67:"Heavy freezing rain",weather71:"Slight snowfall",weather73:"Moderate snowfall",weather75:"Heavy snowfall",weather77:"Snow grains",weather80:"Slight rain showers",weather81:"Moderate rain showers",weather82:"Violent rain showers",weather85:"Slight snow showers",weather86:"Heavy snow showers",weather95:"Thunderstorm",weather96:"Thunderstorm with slight hail",weather99:"Thunderstorm with heavy hail",weekdays:["Su","Mo","Tu","We","Th","Fr","Sa"]
       },
       ru: {
         navSuites:"Апартаменты",navAmenities:"Удобства",navLocation:"Расположение",navReviews:"Отзывы",navFaq:"Вопросы",book:"Забронировать",
-        heroLocation:"БУДВА · ЧЕРНОГОРИЯ",heroTitle:"Премиальный отдых",heroText:"Элегантное убежище между горами Черногории и бескрайней синевой Адриатического моря.",heroCta:"Забронировать отдых",explore:"Смотреть апартаменты",heroSide:"АДРИАТИКА · 42°17′N 18°50′E",
+        heroLocation:"УТЕХА · ЧЕРНОГОРИЯ",heroTitle:"Премиальный отдых",heroText:"Элегантное убежище между горами Черногории и бескрайней синевой Адриатического моря.",heroCta:"Забронировать отдых",explore:"Смотреть апартаменты",heroSide:"АДРИАТИКА · 42°17′N 18°50′E",
         amenitiesEyebrow:"КОМФОРТ БЕЗ КОМПРОМИССОВ",amenitiesTitle:"Всё необходимое. <span class='text-white/45'>Ничего лишнего.</span>",wifiTitle:"Высокоскоростной Wi-Fi",wifiText:"Быстрый интернет для работы и спокойного отдыха.",parkingTitle:"Частная парковка",parkingText:"Безопасное и удобное место для автомобиля на время отдыха.",acTitle:"Кондиционер",acText:"Комфортная прохлада в апартаментах даже в солнечные дни.",
         galleryEyebrow:"ПРОСТРАНСТВА SOLMARE",galleryTitle:"Красота в каждой детали",galleryText:"Продуманные интерьеры, естественный свет и спокойствие отдыха у моря.",livingLabel:"Гостиная",livingTitle:"Пространство для отдыха",kitchenLabel:"Кухня",balconyLabel:"Балкон с видом на море",bedroomLabel:"Спальня",diningLabel:"Обеденная зона",price:"От 85 € / ночь",livingAlt:"Элегантная гостиная",kitchenAlt:"Современная кухня",balconyAlt:"Балкон с видом на море",bedroomAlt:"Элегантная спальня",diningAlt:"Обеденная зона",
-        mapEyebrow:"ОТКРОЙТЕ БУДВУ",mapTitle:"Море рядом. Всё под рукой.",mapText:"Насладитесь атмосферой Адриатики и очарованием Будвы в месте, созданном для незабываемых мгновений.",mapCta:"Показать карту",mapModalTitle:"Solmare · Будва",
-        reviewsEyebrow:"НЕЗАБЫВАЕМЫЕ МОМЕНТЫ",reviewsTitle:"Что говорят гости",review1:"«Прекрасный отдых в светлых и очень уютных апартаментах. Мы чувствовали себя как дома»",review2:"«Балкон и спокойная атмосфера сделали наш отпуск в Будве особенным»",review3:"«Элегантное и гостеприимное место — всё необходимое для идеального отдыха»",guest1:"Елена М. · пример",guest2:"Андрей П. · пример",guest3:"Мара Д. · пример",reviewDemo:"Демонстрационный отзыв — замените подтверждённым отзывом гостя.",
+        mapEyebrow:"ОТКРОЙТЕ УТЕХУ",mapTitle:"Море рядом. Всё под рукой.",mapText:"Насладитесь атмосферой Адриатики и очарованием Утехи в месте, созданном для незабываемых мгновений.",mapCta:"Показать карту",mapModalTitle:"Solmare · Утеха",
+        reviewsEyebrow:"НЕЗАБЫВАЕМЫЕ МОМЕНТЫ",reviewsTitle:"Что говорят гости",review1:"«Прекрасный отдых в светлых и очень уютных апартаментах. Мы чувствовали себя как дома»",review2:"«Балкон и спокойная атмосфера сделали наш отпуск в Утехе особенным»",review3:"«Элегантное и гостеприимное место — всё необходимое для идеального отдыха»",guest1:"Елена М. · пример",guest2:"Андрей П. · пример",guest3:"Мара Д. · пример",reviewDemo:"Демонстрационный отзыв — замените подтверждённым отзывом гостя.",
         faqEyebrow:"КОРОТКО О ГЛАВНОМ",faqTitle:"Частые вопросы",faqQ1:"Как забронировать апартаменты?",faqA1:"Выберите даты и отправьте заявку через форму бронирования. Мы свяжемся с вами и уточним детали.",faqQ2:"Во сколько заезд и выезд?",faqA2:"Время заезда и выезда подтвердит наша команда после получения заявки.",faqQ3:"Есть ли парковка?",faqA3:"Да, для гостей предусмотрена частная парковка.",
         finalEyebrow:"ВАШ ОТДЫХ НАЧИНАЕТСЯ ЗДЕСЬ",finalTitle:"Позвольте Адриатике вас удивить.",stickyPrice:"От 85 € / ночь",bookingEyebrow:"ПРЯМОЕ БРОНИРОВАНИЕ",bookingTitle:"Выберите даты отдыха",bookingIntro:"Укажите подходящие даты и отправьте нам заявку.",checkinLabel:"Заезд",checkoutLabel:"Выезд",dateError:"Дата выезда должна быть позже даты заезда.",checkAvailability:"Проверить доступность",checking:"Проверяем доступность...",sendRequest:"Отправить заявку",sent:"Заявка успешно отправлена! Скоро мы с вами свяжемся.",selectDates:"Выберите даты заезда и выезда.",baseEstimate:"От 85 € / ночь",estimate:"Даты свободны! {nights} ночи x 85 € = {total} €",
         weatherUnavailable:"Погода недоступна",weather0:"Ясно",weather1:"Преимущественно ясно",weather2:"Переменная облачность",weather3:"Пасмурно",weather45:"Туман",weather48:"Изморозевый туман",weather51:"Лёгкая морось",weather53:"Умеренная морось",weather55:"Сильная морось",weather56:"Лёгкая ледяная морось",weather57:"Сильная ледяная морось",weather61:"Небольшой дождь",weather63:"Умеренный дождь",weather65:"Сильный дождь",weather66:"Небольшой ледяной дождь",weather67:"Сильный ледяной дождь",weather71:"Небольшой снег",weather73:"Умеренный снег",weather75:"Сильный снег",weather77:"Снежные зёрна",weather80:"Небольшие ливни",weather81:"Умеренные ливни",weather82:"Сильные ливни",weather85:"Небольшой снегопад",weather86:"Сильный снегопад",weather95:"Гроза",weather96:"Гроза с небольшим градом",weather99:"Гроза с сильным градом",weekdays:["Вс","Пн","Вт","Ср","Чт","Пт","Сб"]
@@ -539,7 +539,7 @@
     }
     async function fetchWeather() {
       try {
-        const response = await fetch("https://api.open-meteo.com/v1/forecast?latitude=42.2825&longitude=18.8581&current=temperature_2m,weather_code,is_day&timezone=Europe/Podgorica")
+        const response = await fetch("https://api.open-meteo.com/v1/forecast?latitude=42.0155&longitude=19.1489&current=temperature_2m,weather_code,is_day&timezone=Europe/Podgorica")
         if (!response.ok) throw new Error("Weather request failed");
         const current = (await response.json()).current;
         const temperature = Math.round(current.temperature_2m);
